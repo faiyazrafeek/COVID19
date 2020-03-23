@@ -11,9 +11,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     
     <script src="js/script.js"></script>
+
+    <script type="text/javascript" >
+      function loadref(time){
+        setTimeout("location.reload(true);", time);
+      }
+    </script>
+
     <title>COVID19 - Home</title>
   </head>
-  <body>    
+  <body onload="Javascript:loadref(5000)" >    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">COVID19</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
